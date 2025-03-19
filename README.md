@@ -72,14 +72,7 @@ sudo systemctl status httpd
 ### 📸 Screenshot: *Apache Service Status*
 ![S3 Bucket Creation](screenshots/apache_service_status.png)
 
-### 4. Configure Firewall
-
-```bash
-sudo firewall-cmd --permanent --add-service=http
-sudo firewall-cmd --reload
-```
-
-### Deploy a Web Page
+### 4. Deploy a Web Page
 
 Create a simple index.html file:
 
@@ -90,7 +83,7 @@ sudo echo "<h1>Welcome to My Web Server</h1>" > /var/www/html/index.html
 ### 📸 Screenshot: *Deployed Web Page*
 ![S3 Bucket Creation](screenshots/deploy_webpage_index.png)
 
-### 6. Access the Web Server
+### 5. Access the Web Server
 Open a browser and navigate to:
 
 ```bash
@@ -103,14 +96,6 @@ Welcome to My Web Server
 
 ### 📸 Screenshot: *Final Web Page*
 ![S3 Bucket Creation](screenshots/browser_access.png)
-
-7. Configure Auto Start
-Ensure your web server starts on reboot:
-
-bash
-```
-sudo systemctl enable httpd
-```
 
 File Structure
 
