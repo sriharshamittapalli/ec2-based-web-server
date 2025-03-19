@@ -1,6 +1,6 @@
 # EC2-based Web Server Setup (Apache)
 
-In this project, we will deploy a web server using Amazon EC2 instance and install Apache and configure it to serve a basic website.
+In this project, we will deploy a web server using Amazon EC2 instance, install Apache and configure it to serve a basic website.
 
 ## Project Overview
 
