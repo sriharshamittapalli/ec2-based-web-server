@@ -28,7 +28,24 @@ In this project, we will deploy a web server using Amazon EC2 instance and insta
    - **Security Group:** Allow SSH (port 22) and HTTP (port 80)
 4. Click **Launch**.
 
-*Show Image*
+### 📸 Screenshot: *EC2 Launch Config*
+![S3 Bucket Creation](screenshots/ec2_launch_config.png)
+
+### 📸 Screenshot: *Deployed Web Page*
+![S3 Bucket Creation](screenshots/deploy_webpage_index.png)
+
+### 📸 Screenshot: *EC2 Launch Config*
+![S3 Bucket Creation](screenshots/browser_access.png)
+
+### 📸 Screenshot: *Apache Service Status*
+![S3 Bucket Creation](screenshots/apache_service_status.png)
+
+### 📸 Screenshot: *AMI Instance Type*
+![S3 Bucket Creation](screenshots/ami_instance_type_selection.png)
+
+### 📸 Screenshot: *Key Pair and Security Group*
+![S3 Bucket Creation](screenshots/key_pair_security_group_setup.png)
+
 
 ### 2. Connect to the EC2 Instance
 
