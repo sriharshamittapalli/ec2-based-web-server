@@ -37,6 +37,8 @@ In this project, we will deploy a web server using Amazon EC2 instance, install 
 ### 📸 Screenshot: *Key Pair and Security Group*
 ![S3 Bucket Creation](screenshots/key_pair_security_group_setup.png)
 
+### 📸 Screenshot: *EC2 Instance*
+![S3 Bucket Creation](screenshots/ec2_instance.png)
 
 ### 2. Connect to the EC2 Instance
 
