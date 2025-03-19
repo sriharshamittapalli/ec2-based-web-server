@@ -31,15 +31,6 @@ In this project, we will deploy a web server using Amazon EC2 instance and insta
 ### 📸 Screenshot: *EC2 Launch Config*
 ![S3 Bucket Creation](screenshots/ec2_launch_config.png)
 
-### 📸 Screenshot: *Deployed Web Page*
-![S3 Bucket Creation](screenshots/deploy_webpage_index.png)
-
-### 📸 Screenshot: *EC2 Launch Config*
-![S3 Bucket Creation](screenshots/browser_access.png)
-
-### 📸 Screenshot: *Apache Service Status*
-![S3 Bucket Creation](screenshots/apache_service_status.png)
-
 ### 📸 Screenshot: *AMI Instance Type*
 ![S3 Bucket Creation](screenshots/ami_instance_type_selection.png)
 
@@ -78,6 +69,9 @@ Verify installation:
 sudo systemctl status httpd
 ```
 
+### 📸 Screenshot: *Apache Service Status*
+![S3 Bucket Creation](screenshots/apache_service_status.png)
+
 ### 4. Configure Firewall
 
 ```bash
@@ -93,6 +87,9 @@ Create a simple index.html file:
 sudo echo "<h1>Welcome to My Web Server</h1>" > /var/www/html/index.html
 ```
 
+### 📸 Screenshot: *Deployed Web Page*
+![S3 Bucket Creation](screenshots/deploy_webpage_index.png)
+
 ### 6. Access the Web Server
 Open a browser and navigate to:
 
@@ -103,7 +100,9 @@ http://<your-instance-public-ip>
 You should see:
 
 Welcome to My Web Server
-Show Image
+
+### 📸 Screenshot: *Final Web Page*
+![S3 Bucket Creation](screenshots/browser_access.png)
 
 7. Configure Auto Start
 Ensure your web server starts on reboot:
