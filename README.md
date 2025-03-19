@@ -46,6 +46,9 @@ Open your terminal and run the following (replace `<your-key.pem>` and `<your-in
 ssh -i <your-key.pem> ec2-user@<your-instance-public-ip>
 ```
 
+### 📸 Screenshot: *SSH Connection*
+![S3 Bucket Creation](screenshots/ssh_connection_terminal.png)
+
 ### 3. Install Apache
 Update the package repository:
 
